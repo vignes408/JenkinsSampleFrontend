@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import ArtArtist from './ArtArtist';
 import Home from './Home';
 import ViewArt from './ViewArt';
