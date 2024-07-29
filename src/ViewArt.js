@@ -1,23 +1,22 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 
 function ViewArt() {
     const [columns, setColumns] = useState([]);
     const [records, setRecords] = useState([]);
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    useEffect(() => {
-        axios
-          .get("http://localhost:4802/art/allart")
-          .then((response) => {
-            setColumns(Object.keys(response.data[0]));
-            setRecords(response.data);
-          })
-          .catch((err) => {
-            console.log(err);
-          });
-      }, []);
+    // useEffect(() => {
+    //     axios
+    //       .get("http://localhost:4802/art/allart")
+    //       .then((response) => {
+    //         setColumns(Object.keys(response.data[0]));
+    //         setRecords(response.data);
+    //       })
+    //       .catch((err) => {
+    //         console.log(err);
+      // }, []);
 
     let handleSubmit = (id) => {
         const conf = window.confirm("Do you want to delete");
