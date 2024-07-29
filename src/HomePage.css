@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 6rem;
+    color: black;
+}
+body{
+    background-image: url(https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/white/Photoroom_white_background_extremely_fine_texture_only_white_co_d6a2d66a-dfe4-41fc-80fd-ec55764101bb.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#block{
+    width: 100%;
+    height: 450px;
+}
+a{
+    color: black;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-weight: bolder;
+    font-size: 16px;
+}
+.icons{
+    justify-content: space-between;
+}
+.icons i{
+    padding-left: 3px;
+    padding-right: 10px;
+}
+#card1,#card2{
+    margin-top: -6rem;
+}
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    width: 50px;
+}
+h5{
+    display: inline;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#div2{
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
