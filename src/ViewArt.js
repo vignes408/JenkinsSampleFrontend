@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-// import axios from "axios";
+import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 
 function ViewArt() {
     const [columns, setColumns] = useState([]);
     const [records, setRecords] = useState([]);
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
     // useEffect(() => {
     //     axios
