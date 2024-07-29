@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
-import * as ReactDOM from "react-dom/client";
 
 function ViewArt() {
     const [columns, setColumns] = useState([]);
