@@ -1,11 +1,11 @@
 import React, {useState } from "react";
-import axios from "axios";
-import { Link, useNavigate } from "react-router-dom";
+// import axios from "axios";
+import { Link } from "react-router-dom";
 
 function ViewArt() {
     const [columns] = useState([]);
     const [records] = useState([]);
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     // useEffect(() => {
     //     axios
@@ -19,17 +19,17 @@ function ViewArt() {
       // }, []);
 
     let handleSubmit = (id) => {
-        const conf = window.confirm("Do you want to delete");
-        if (conf) {
-          axios
-            .delete("http://localhost:4802/art/" + id)
-            .then((res) => {
-              alert("record has deleted");
-              navigate("/");
-              window.location.reload();
-            })
-            .catch((err) => console.log(err));
-        }
+    //     const conf = window.confirm("Do you want to delete");
+    //     if (conf) {
+    //       axios
+    //         .delete("http://localhost:4802/art/" + id)
+    //         .then((res) => {
+    //           alert("record has deleted");
+    //           navigate("/");
+    //           window.location.reload();
+    //         })
+    //         .catch((err) => console.log(err));
+    //     }
       };
   return (
     <div id="body">
